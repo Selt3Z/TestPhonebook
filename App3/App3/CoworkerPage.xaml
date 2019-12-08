@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.CoworkerPage" Title="Информация о сотруднике">
+    <StackLayout>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Image Grid.Column="1" Grid.Row="0" Source="{Binding PhotoLarge}" x:Name="PhotoImage" WidthRequest="150" HeightRequest="150"/>
+        </Grid>
+        <Label Text="Имя" />
+        <Entry Text="{Binding FirstName}" />
+        <Label Text="Фамилия" />
+        <Entry Text="{Binding LastName}" />
+        <Label Text="Email" />
+        <Entry Text="{Binding Email}" x:Name="Email"/>
+        <Label Text="Телефон" />
+        <Entry Text="{Binding Phone}" x:Name="PhoneNumber"/>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Сохранить" Clicked="SaveCoworker" />
+            <Button Text="Удалить" Clicked="DeleteCoworker" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Позвонить" Clicked="Call" />
+            <Button Text="Отправить SMS" Clicked="SendSMS" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Отправить Email" Clicked="SendEmail" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

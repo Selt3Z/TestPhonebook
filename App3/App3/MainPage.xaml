@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.MainPage" NavigationPage.HasNavigationBar="False">
+    <StackLayout>
+        <ListView x:Name="coworkersList" ItemsSource="{Binding}" ItemSelected="OnItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="{Binding PhotoMedium}" WidthRequest="60" HeightRequest="60"/>
+                                <Label Text="  " FontSize="Medium"/>
+                                <Label Text="{Binding FirstName}" FontSize="Medium" TextColor="#3D3D3D"/>
+                                <Label Text="{Binding LastName}" FontSize="Medium" TextColor="#3D3D3D"/>
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <!--<Button Text="Добавить" Clicked="CreateCoworker" />-->
+    </StackLayout>
+</ContentPage>

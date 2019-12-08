@@ -1,0 +1,10 @@
+c:\users\администратор\source\repos\App3\App3\App3.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+c:\users\администратор\source\repos\App3\App3\App3.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+c:\users\администратор\source\repos\App3\App3\App3.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+c:\users\администратор\source\repos\App3\App3\App3.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+c:\users\администратор\source\repos\App3\App3\App3.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+c:\users\администратор\source\repos\App3\App3\App3.iOS\obj\iPhone\Debug\optimized\
+c:\users\администратор\source\repos\App3\App3\App3.iOS\obj\iPhone\Debug\App3.iOS.csprojAssemblyReference.cache
+c:\users\администратор\source\repos\App3\App3\App3.iOS\obj\iPhone\Debug\App.xaml.g.cs
+c:\users\администратор\source\repos\App3\App3\App3.iOS\obj\iPhone\Debug\MainPage.xaml.g.cs
+c:\users\администратор\source\repos\App3\App3\App3.iOS\obj\iPhone\Debug\App3.iOS.csproj.CoreCompileInputs.cache
